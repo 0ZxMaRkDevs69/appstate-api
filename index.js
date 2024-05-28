@@ -179,7 +179,7 @@ app.get('/fbcookie', async function(req, res) {
 			"creation": new Date().toISOString(),
 			"lastAccessed": new Date().toISOString()
 		}]
-		res.json(JSON.stringify(fbstate, null, 4);
+		res.json(fbstate, null, 4);
 	} catch (e) {
 		if (!e.response) {
 			res.send({
